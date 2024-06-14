@@ -2053,6 +2053,49 @@
   border-radius: 20px;
   margin-top: 20px;
 }
+
+/*about page */
+
+.about-page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-page-section1 {
+  padding-top: 80px;
+}
+
+.about-page-head h2 {
+  font-family: var(--mona);
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+}
+
+.about-page-head h2 span {
+  color: var(--color1);
+}
+
+.about-page-section1 p {
+  font-family: var(--mona);
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.about-page-section1 img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.about-tag {
+  font-style: italic;
+}
+
 /*responsive*/
 
 /* mobile phones to tablet devices*/
@@ -2248,6 +2291,9 @@
   }
 
   /*contact-page*/
+  .contact-us-section1 {
+    padding-top: 50px;
+  }
 
   .contact-content .contact-link {
     justify-content: left;
