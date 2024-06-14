@@ -1449,7 +1449,6 @@
 .product-card-detail option {
   border: none;
 }
-
 .product-card-detail .price-cart {
   display: flex;
   align-items: center;
@@ -1914,6 +1913,67 @@
   font-weight: 500;
 }
 
+/*sing-up-page*/
+
+.signup-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.signup-section {
+  background-image: url("../images/Layer-1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.signup-form {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+.signup-form input {
+  border: 1.5px solid var(--color5);
+  padding: 0.5em 0em;
+}
+
+.signup-form h4 {
+  font-family: var(--mona);
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.signup-form h4 span {
+  color: var(--color1);
+}
+
+.signup-form label {
+  font-family: var(--mona);
+  font-weight: 500;
+}
+
+.sign-up-btn {
+  width: 100%;
+  height: 2.8em;
+  border: none;
+  background-color: var(--color1);
+  color: var(--color9);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.have-account p {
+  font-family: var(--mona);
+  font-weight: 500;
+}
+
 /*responsive*/
 
 /* mobile phones to tablet devices*/
@@ -2101,6 +2161,11 @@
 
   .policy-pages-links {
     flex-wrap: wrap;
+  }
+
+  .signup-form {
+    flex-basis: 100%;
+    padding: 0px 10px;
   }
 }
 
